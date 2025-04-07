@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Garamond";
+  src: url("fonts/EBGaramond-VariableFont_wght.woff2");
+}
+:root {
+  font-family: "Garamond";
+  --text-color: #0b232c;
+  --bg-color: #fffef0;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: auto;
+  max-width: 800px;
+}
+
+body::selection {
+  background: var(--text-color);
+  color: var(--bg-color);
+}
+/* For some reason, firefox doesnt support ::selection yet  */
+::-moz-selection {
+  background: var(--text-color);
+  color: var(--bg-color);
+}
+/* TODO: Delete this!  */
+img {
+  width: 300px;
+}
+div {
+  font-size: clamp(1.3rem, 4vw, 2rem);
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+  font-weight: bold;
+}
+a {
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  text-decoration: none;
+  font-family: "Garamond";
+  color: var(--text-color);
+  background-color: transparent;
+}
+li {
+  font-size: clamp(1rem, 4vw, 1.3rem);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.header-right {
+  font-weight: bold;
+}
+.link-btn {
+  border-radius: 5px;
+  padding: 2.5px 10px;
+  /* font-size: 1rem; */
+  font-weight: bold;
+}
+.link-btn.important {
+  border: 1px dashed var(--text-color);
+}
+.link-btn:hover {
+  color: var(--bg-color);
+  background-color: var(--text-color);
+  cursor: pointer;
+}
+
+.intro-title {
+  font-weight: 500;
+}
+.project-date {
+  font-size: 1.3rem;
+  margin: 5px;
+}
+.project,
+.link-btn {
+  border: 1px solid rgba(11, 35, 44, 0.1);
+}
+.project {
+  border-radius: 10px;
+  display: flex;
+  gap: 30px;
+}
+.project-name {
+  margin: 10px 0px;
+}
+.project-skills {
+  margin-top: 20px;
+}
+.project-skills ul {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 10px;
+}
+.list-label {
+  font-weight: 500;
+}
+.project-skills h4 {
+  margin-bottom: 10px;
+}
+.project-skills ul {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+.project-skills-list {
+  padding-left: 40px;
+}
+.skill-item {
+  border: 1px solid rgba(11, 35, 44, 0.3);
+  padding: 2px 10px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: fit-content;
+}
+@media (max-width: 800px) {
+  body {
+    margin: 20px;
+  }
+}
