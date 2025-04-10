@@ -85,7 +85,6 @@ li {
   top: 0;
   background-color: var(--bg-color);
   opacity: 95%;
-  z-index: 1;
 }
 .header-left {
   font-weight: 600;
@@ -146,6 +145,9 @@ li {
 }
 .project-name {
   margin: 10px 0px;
+  padding: 0 5px;
+  border-bottom: 1px dotted var(--text-color);
+  width: fit-content;
 }
 .project-skills {
   margin: 20px 0px;
