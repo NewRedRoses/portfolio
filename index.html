@@ -9,20 +9,37 @@
   </head>
   <body>
     <div class="header-container">
-      <div class="header-right">M.A - Developer</div>
       <div class="header-left">
+        <span> M.A </span>
+        <span class="header-left-div">-</span>
+        <span> Portfolio</span>
+      </div>
+      <div class="header-right">
         <a href="#" class="link-btn important">Contact</a>
       </div>
     </div>
     <div class="main-container">
       <div class="intro-container">
         <h1 class="intro-name">Mark Abrahams</h1>
-        <div class="intro-title">Full Stack Web Developer</div>
-        <p class="intro-about-me">
-        <p>I love designing software that is elegant, useful and open source.</p>
-<p>    Based in the NYC metro area, and open to relocation.
-        </p>         
+        <div class="intro-title">
+          <span> Full Stack Web Developer </span>
 
+          <span>
+            <img
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1hcC1waW5uZWQtaWNvbiBsdWNpZGUtbWFwLXBpbm5lZCI+PHBhdGggZD0iTTE4IDhjMCAzLjYxMy0zLjg2OSA3LjQyOS01LjM5MyA4Ljc5NWExIDEgMCAwIDEtMS4yMTQgMEM5Ljg3IDE1LjQyOSA2IDExLjYxMyA2IDhhNiA2IDAgMCAxIDEyIDAiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjgiIHI9IjIiLz48cGF0aCBkPSJNOC43MTQgMTRoLTMuNzFhMSAxIDAgMCAwLS45NDguNjgzbC0yLjAwNCA2QTEgMSAwIDAgMCAzIDIyaDE4YTEgMSAwIDAgMCAuOTQ4LTEuMzE2bC0yLTZhMSAxIDAgMCAwLS45NDktLjY4NGgtMy43MTIiLz48L3N2Zz4="
+              alt=""
+              class="icon"
+            />
+            N.Y.C area
+          </span>
+        </div>
+        <p class="intro-about-me">
+          <span>
+            I love designing software that is elegant, useful and performant.
+          </span>
+          <span>
+            [Currently based in the NYC metro area, and open to relocation.]
+          </span>
         </p>
       </div>
       <div class="recent-works-container">
@@ -64,30 +81,43 @@
                 <a
                   href="https://github.com/NewRedRoses/whirl-frontend"
                   class="github-link"
-                  >Frontend Repo</a
+                >
+                  <img
+                    src="./assets/github.svg"
+                    alt="github-logo"
+                    class="icon"
+                  />
+                  Frontend</a
                 >
                 <a
                   href="https://github.com/NewRedRoses/whirl-frontend"
                   class="github-link"
-                  >Backend Repo</a
+                >
+                  <img
+                    src="./assets/github.svg"
+                    alt="github-logo"
+                    class="icon"
+                  />
+                  Backend</a
                 >
               </div>
               <a href="https://whirl.social" class="live-deploy-link">
-                Live deployment
-              </a>
+                <img src="./assets/globe.svg" alt="globe-logo" class="icon" />
+                Website</a
+              >
             </div>
           </div>
         </div>
       </div>
       <div class="skills-container">
         <h2>Skills & Tools I've experience with</h2>
-        <ul>
-          <li>
+        <ul class="list-of-skills">
+          <li class="frameworks-container">
             <h3>Frameworks & Libraries</h3>
-            <ul>
+            <ul class="frameworks-container-subsections">
               <li class="list-label">
                 Frontend:
-                <ul>
+                <ul class="nested-list">
                   <li class="skill-item">React</li>
                   <li class="skill-item">Angular</li>
                   <li class="skill-item">React Native</li>
@@ -95,16 +125,16 @@
               </li>
               <li class="list-label">
                 Backend:
-                <ul>
+                <ul class="nested-list">
                   <li class="skill-item">Express</li>
                   <li class="skill-item">Node.js</li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li>
+          <li class="languages-container">
             <h3>Languages</h3>
-            <ul>
+            <ul class="languages-subsection">
               <li class="list-label">
                 Programming:
                 <ul class="nested-list">
@@ -120,7 +150,7 @@
                   <li class="skill-item">Markdown</li>
                 </ul>
               </li>
-              <li>
+              <li class="list-label">
                 Natural:
                 <ul class="nested-list">
                   <li class="skill-item">English</li>
@@ -129,9 +159,9 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="databases-container">
             <h3>Databases</h3>
-            <ul>
+            <ul class="databases-subsection">
               <li class="list-label">
                 Tools:
                 <ul class="nested-list">
@@ -150,38 +180,60 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="tools-others-container">
             <h3>Tools & Others</h3>
-            <ul class="nested-list">
-              <li>REST API Design</li>
-              <li>Test-Driven Development</li>
-              <li>Unit Testing</li>
-              <li>Acceptance Testing</li>
-              <li>SCRUM / Agile Development</li>
-              <li>Linux</li>
-              <li>Git</li>
-              <li>CLI Tools</li>
+            <ul class="nested-list dump">
+              <li class="skill-item">REST API Design</li>
+              <li class="skill-item">Test-Driven Development</li>
+              <li class="skill-item">Unit Testing</li>
+              <li class="skill-item">Acceptance Testing</li>
+              <li class="skill-item">SCRUM / Agile Development</li>
+              <li class="skill-item">Linux</li>
+              <li class="skill-item">Git</li>
+              <li class="skill-item">CLI Tools</li>
             </ul>
           </li>
         </ul>
       </div>
       <div class="contact-container">
-        <div class="contact-left">img of me goes here</div>
+        <div class="contact-left">
+          <img
+            src="./assets/caricature.png"
+            class="caricature gelatine"
+            alt="drawing of me"
+          />
+        </div>
         <div class="contact-right">
           <h2>Contact Me</h2>
           <div class="contact-description">
-            Feel free to reach out to me through any of these channels.
+            Please feel free to reach out to me through any of these channels:
           </div>
           <div class="contact-me-btns">
-            <a class="link-btn">Email</a>
-            <a class="link-btn">Github</a>
-            <a class="link-btn">Linkedin</a>
+            <a href="mailto:marka.for.hire@gmail.com" class="link-btn">
+              <img src="./assets/mail.svg" class="icon" alt="mail icon" />
+              Email</a
+            >
+            <a href="https://github.com/NewRedRoses" class="link-btn">
+              <img src="./assets/github.svg" class="icon" alt="mail icon" />
+              Github</a
+            >
+            <a href="www.linkedin.com/in/markabrahams16" class="link-btn">
+              <img src="./assets/linkedin.svg" class="icon" alt="mail icon" />
+              Linkedin</a
+            >
           </div>
         </div>
       </div>
       <div class="footer">
-        <span> Made with <3 and HTML/CSS :) </span>
-        <span>Source code</span>
+        <span>
+          Made with
+          <img
+            src="./assets/heart.svg"
+            alt="heart icon"
+            class="heart icon gelatine"
+          />
+        </span>
+        <a href="" alt="link to source code" class="link-btn">Source code</a>
       </div>
     </div>
   </body>
