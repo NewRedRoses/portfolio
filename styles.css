@@ -149,6 +149,11 @@ li {
   border-bottom: 1px dotted var(--text-color);
   width: fit-content;
 }
+.project-name:hover {
+  cursor: pointer;
+  font-weight: 560;
+  border-bottom: 1px solid var(--text-color);
+}
 .project-skills {
   margin: 20px 0px;
   margin-top: 20px;
