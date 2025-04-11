@@ -14,7 +14,7 @@ body {
   color: var(--text-color);
   max-width: 800px;
   margin: auto;
-  height: 100vh;
+  height: auto;
 }
 
 body::selection {
