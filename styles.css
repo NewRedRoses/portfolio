@@ -6,6 +6,7 @@
   font-family: "Garamond";
   --text-color: #0b232c;
   --bg-color: #fffef0;
+  --accent-color: #4b7bec;
   /* --bg-color: #fff; */
 }
 body {
@@ -91,6 +92,8 @@ li {
 .header-left {
   font-weight: 600;
   border-bottom: 1.5px dotted rgba(11, 35, 44, 0.9);
+  border-bottom: 1.5px dotted var(--accent-color);
+  /* rgba(11, 35, 44, 0.9); */
 }
 .header-left-div {
   width: 10px;
@@ -148,7 +151,7 @@ li {
 .project-name {
   margin: 10px 0px;
   padding: 0 5px;
-  border-bottom: 1px dotted var(--text-color);
+  border-bottom: 1px dotted var(--accent-color);
   width: fit-content;
 }
 .project-name:hover {
