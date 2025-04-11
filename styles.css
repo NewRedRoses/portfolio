@@ -91,7 +91,6 @@ li {
 }
 .header-left {
   font-weight: 600;
-  border-bottom: 1.5px dotted rgba(11, 35, 44, 0.9);
   border-bottom: 1.5px dotted var(--accent-color);
   /* rgba(11, 35, 44, 0.9); */
 }
@@ -116,6 +115,7 @@ li {
 .intro-about-me {
   display: flex;
   flex-direction: column;
+  padding-left: 15px;
   gap: 10px;
 }
 
@@ -158,7 +158,9 @@ li {
 .project-name:hover {
   cursor: pointer;
   font-weight: 560;
-  border-bottom: 1px solid var(--text-color);
+}
+.project-description {
+  padding-left: 15px;
 }
 .project-skills {
   margin: 20px 0px;
