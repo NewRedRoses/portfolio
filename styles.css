@@ -149,6 +149,9 @@ li {
   flex-direction: column;
   padding: 30px 5px;
 }
+.project-right a {
+  width: fit-content;
+}
 .project-name {
   margin: 10px 0px;
   padding: 0 5px;
