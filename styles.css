@@ -124,6 +124,7 @@ li {
   display: flex;
   gap: 20px;
   align-items: center;
+  color: rgba(11, 35, 44, 0.8);
 }
 .intro-title span {
   display: flex;
