@@ -13,6 +13,7 @@ body {
   color: var(--text-color);
   max-width: 800px;
   margin: auto;
+  height: 100vh;
 }
 
 body::selection {
@@ -178,6 +179,8 @@ li {
 }
 .project-skills-list {
   padding-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .project-btns {
   display: flex;
@@ -252,6 +255,7 @@ li {
 .databases-subsection {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .nested-list {
   display: flex;
@@ -261,6 +265,9 @@ li {
 .contact-container {
   display: flex;
   align-items: center;
+}
+.contact-description {
+  word-wrap: normal;
 }
 .caricature {
   opacity: 90%;
@@ -345,6 +352,30 @@ li {
 
 @media (max-width: 800px) {
   body {
-    margin: 10px;
+    margin: 20px;
+  }
+  .intro-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .project {
+    flex-direction: column;
+  }
+  .contact-container {
+    justify-content: center;
+    padding-bottom: 90px;
+  }
+  .contact-container,
+  .contact-me-btns {
+    flex-wrap: wrap;
+  }
+  .contact-description {
+    max-width: 300px;
+    padding-bottom: 10px;
+  }
+  .contact-me-btns a {
+    width: 50px;
+    justify-content: center;
   }
 }
