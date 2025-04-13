@@ -26,10 +26,6 @@ body::selection {
   background: var(--text-color);
   color: var(--bg-color);
 }
-/* TODO: Delete this!  */
-img {
-  width: 300px;
-}
 div,
 a,
 p {
@@ -70,6 +66,9 @@ a {
 }
 li {
   font-size: clamp(1rem, 4vw, 1.3rem);
+}
+p {
+  margin: 2%;
 }
 .main-container {
   display: flex;
@@ -131,9 +130,16 @@ li {
   align-items: center;
   gap: 5px;
 }
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
 .project-date {
   font-size: 1.3rem;
-  margin: 5px;
+  width: fit-content;
+  /* margin: 5px; */
 }
 .project,
 .link-btn {
@@ -142,12 +148,22 @@ li {
 .project {
   border-radius: 10px;
   display: flex;
-  gap: 30px;
+  /* gap: 30px; */
+}
+.project-left {
+  flex: 1;
+  /* display: flex; */
+}
+.project-img {
+  max-width: 400px;
+  object-fit: contain;
 }
 .project-right {
   display: flex;
   flex-direction: column;
-  padding: 30px 5px;
+  padding: 20px 5px;
+  width: fit-content;
+  /* overflow: scroll; */
 }
 .project-right a {
   width: fit-content;
@@ -164,10 +180,13 @@ li {
 }
 .project-description {
   padding-left: 15px;
+  max-width: 60ch;
+  overflow: scroll;
 }
 .project-skills {
-  margin: 20px 0px;
-  margin-top: 20px;
+  /* padding: 20px; */
+  /* margin: 20px 0px; */
+  /* margin-top: 20px; */
 }
 .project-skills ul {
   margin: 0;
@@ -195,6 +214,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding: 15px;
 }
 .project-btns a {
   display: flex;
@@ -217,6 +237,8 @@ li {
   display: flex;
   gap: 10px;
   padding-right: 5px;
+  flex-wrap: wrap;
+  height: fit-content;
 }
 .skill-item {
   border: 1px solid rgba(11, 35, 44, 0.2);
@@ -279,6 +301,7 @@ li {
   word-wrap: normal;
 }
 .caricature {
+  width: 300px;
   opacity: 90%;
 }
 .gelatine:hover {
