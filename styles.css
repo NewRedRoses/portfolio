@@ -313,6 +313,7 @@ ul.nested-list-dump {
 .contact-container {
   display: flex;
   align-items: center;
+  margin-bottom: 10%;
 }
 .contact-description {
   word-wrap: normal;
