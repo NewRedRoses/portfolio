@@ -246,6 +246,9 @@ p {
   border-radius: 5px;
   width: fit-content;
   height: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .github-link,
 .live-deploy-link {
@@ -377,6 +380,7 @@ ul.nested-list-dump {
   display: flex;
   align-items: center;
   gap: 5px;
+  width: fit-content;
 }
 .footer {
   display: flex;
