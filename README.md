@@ -12,6 +12,6 @@ My portfolio is made entirely with just HTML and CSS. This is to ensure the site
 
 ## Check it out
 
-If you would like to visit the live deployment of my portfolio, please visit [markabrahams.dev](www.markabrahams.dev).
+If you would like to visit the live deployment of my portfolio, please visit [markabrahams.dev](https://markabrahams.dev).
 
 Feel free to let me know what you think!
