@@ -412,6 +412,9 @@ ul.nested-list-dump {
   .project {
     flex-direction: column;
   }
+  .project-right {
+    padding: 5px 20px;
+  }
   .contact-container {
     justify-content: center;
     padding-bottom: 90px;
@@ -420,6 +423,9 @@ ul.nested-list-dump {
   .contact-me-btns {
     flex-wrap: wrap;
   }
+  .contact-right {
+    padding: 0px 10px;
+  }
   .contact-description {
     max-width: 300px;
     padding-bottom: 10px;
@@ -427,5 +433,14 @@ ul.nested-list-dump {
   .contact-me-btns a {
     width: 50px;
     justify-content: center;
+  }
+  .project-img {
+    width: 300px;
+  }
+  ul.nested-list-dump {
+    width: 200px;
+    padding: 0 20px;
+    justify-content: flex-start;
+    align-items: center;
   }
 }
